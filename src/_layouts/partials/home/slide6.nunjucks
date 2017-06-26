@@ -1,19 +1,19 @@
-<div class="container-wrap slide6">
-  <div class="container">
-    <div class="content">
-      <h1>
-        We like to go with modern<br>
-        technologies, we know<br>
-        how and when use them
-      </h1>
-      <p class="margin-top-25 gridsss-1">
-        We help you transform your idea to a production-ready
-        solution.
-      </p>
+{% extends '_layouts/partials/home/slide-wrap.nunjucks' %}
 
-      <button class="btn btn-gradient-green margin-top-50">
-        Hire us
-      </button>
-    </div>
-  </div>
-</div>
+{% set slideId = "testemonials" %}
+
+{% block slideContent %}
+  <h1>
+    We like to go with modern<br>
+    technologies, we know<br>
+    how and when use them
+  </h1>
+  <p class="margin-top-25">
+    We help you transform your idea to a production-ready
+    solution.
+  </p>
+
+  <button class="btn btn-gradient-green margin-top-50">
+    Hire us
+  </button>
+{% endblock %}

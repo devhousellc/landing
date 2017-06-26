@@ -14,9 +14,9 @@
   <link rel="icon" href="/favicon.ico">
   <link rel="stylesheet" href="{{ baseUrl }}styles/main.css"/>
   {% block stylesheets %}{% endblock %}
-
 </head>
 <body>
+
 {% include "./top-menu.nunjucks" %}
 
 {% block content %}{% endblock %}

@@ -11,24 +11,46 @@
 
 .navbar-default {
   .navbar-nav {
-    & > li{
+    & > li {
+      position: relative;
+
       & > a {
         text-transform: uppercase;
         font-family: 'gilroyextrabold';
         font-size: 18px;
-        padding-bottom: 7px;
 
-        span{
-          display: inline-block;
-          padding-bottom: 8px;
+        &:hover,
+        &:active,
+        &:visited,
+        &:focus,
+        &.active {
+          color: #fff !important;
         }
+      }
 
-        &:hover{
-          color: #fff;
+      span {
+        position: absolute;
+        left: 15px;
+        right: 15px;
+        bottom: 0;
+        opacity: 0;
+        transition: opacity 0.8s ease 0s;
 
-          & span{
-            border-bottom: 4px solid #99d100;
-          }
+        &:after {
+          content: "";
+          display: block;
+          border-bottom: 4px solid #99d100;
+          width: 0;
+          transition: width 0.6s ease 0s;
+        }
+      }
+
+      &:hover span,
+      &.active span {
+        opacity: 1;
+
+        &:after {
+          width: 100%;
         }
       }
     }

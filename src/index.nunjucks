@@ -2,10 +2,13 @@
 
 {% block content %}
   <div class="image-backstretch">
-    <div class="image-slide-1 active"></div>
-    <div class="image-slide-2"></div>
-    <div class="image-slide-3"></div>
-    <div class="image-slide-4"></div>
+    <div data-slide-link="passionateSpecialists" class="image-slide programmer-dark"></div>
+    <div data-slide-link="modernTechnologies" class="image-slide programmer-light"></div>
+    <div data-slide-link="eventEye" class="image-slide event-eye"></div>
+    <div data-slide-link="cake" class="image-slide cake"></div>
+    <div data-slide-link="bolink" class="image-slide bolink"></div>
+    <div data-slide-link="testemonials" class="image-slide programmer-light"></div>
+    <div data-slide-link="contacts" class="image-slide programmer-dark"></div>
   </div>
 
   {% include '_layouts/partials/home/slide1.nunjucks' %}
@@ -21,6 +24,5 @@
   {% include '_layouts/partials/home/slide6.nunjucks' %}
 
   {% include '_layouts/partials/home/slide7.nunjucks' %}
-
 
 {% endblock %}
