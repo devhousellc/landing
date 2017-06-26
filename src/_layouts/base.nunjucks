@@ -5,22 +5,23 @@
 <!DOCTYPE html>
 <html lang="en" class="no-js">
 
-  <head>
-    <meta charset="utf-8"/>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
-    <title>Dev House</title>
-    <meta name="description" content="web development"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link rel="stylesheet" href="{{baseUrl}}styles/main.css"/>
-    {% block stylesheets %}{% endblock %}
+<head>
+  <meta charset="utf-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+  <title>Dev House</title>
+  <meta name="description" content="web development"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="icon" href="/favicon.ico">
+  <link rel="stylesheet" href="{{ baseUrl }}styles/main.css"/>
+  {% block stylesheets %}{% endblock %}
 
-  </head>
-  <body>
-    {% include "./top-menu.nunjucks" %}
+</head>
+<body>
+{% include "./top-menu.nunjucks" %}
 
-    {% block content %}{% endblock %}
+{% block content %}{% endblock %}
 
-    <script src="{{baseUrl}}scripts/main.js"></script>
-    {% block scripts %}{% endblock %}
-  </body>
+<script src="{{ baseUrl }}scripts/main.js"></script>
+{% block scripts %}{% endblock %}
+</body>
 </html>

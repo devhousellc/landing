@@ -1,0 +1,37 @@
+<div class="container-wrap slide7">
+  <div class="container">
+    <div class="content">
+      <div class="pencil-icon-wrap">
+        <img src="{{ baseUrl }}images/pencil-icon.png" alt="create project">
+      </div>
+      <h1>
+        <span class="media-h">Ready to create</span>
+        a new successful project?
+      </h1>
+
+      <button class="btn btn-gradient-green margin-top-50">
+        Hire us
+      </button>
+    </div>
+
+    <div class="footer">
+      <div class="container">
+        <div class="pull-left">
+          <div class="footer-margin-block">&copy; 2017 DEVHOUSE</div>
+          <div>Stavropol, Russia</div>
+          <div>Oslo, Norway</div>
+        </div>
+
+        <div class="pull-right">
+          <div class="footer-margin-block">
+            <a href="mailto:hello@devhouse.pro">hello@devhouse.pro</a>
+          </div>
+          <div class="footer-mdi">
+            <span class="mdi mdi-facebook-box"></span>
+            <span class="mdi mdi-github-box"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,5 +1,26 @@
 {% extends '_layouts/base.nunjucks' %}
 
 {% block content %}
+  <div class="image-backstretch">
+    <div class="image-slide-1 active"></div>
+    <div class="image-slide-2"></div>
+    <div class="image-slide-3"></div>
+    <div class="image-slide-4"></div>
+  </div>
+
+  {% include '_layouts/partials/home/slide1.nunjucks' %}
+
+  {% include '_layouts/partials/home/slide2.nunjucks' %}
+
+  {% include '_layouts/partials/home/slide3.nunjucks' %}
+
+  {% include '_layouts/partials/home/slide4.nunjucks' %}
+
+  {% include '_layouts/partials/home/slide5.nunjucks' %}
+
+  {% include '_layouts/partials/home/slide6.nunjucks' %}
+
+  {% include '_layouts/partials/home/slide7.nunjucks' %}
+
 
 {% endblock %}

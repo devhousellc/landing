@@ -1,0 +1,21 @@
+<div class="container-wrap slide3">
+  <div class="container">
+    <div class="content">
+      <div class="dash">
+        <div class="event-eye-logo-wrap">
+          <img src="{{ baseUrl }}images/logo/logo-eventeye.png" alt="event-eye">
+        </div>
+      </div>
+      <h1 class="margin-top-35">
+        <span class="media-h">Easy-to-use event apps for your</span>
+        <span class="media-h">conferences, meetings or other events.</span>
+        Your participants will love it
+      </h1>
+      <div class="margin-top-35">
+        <button class="btn btn-simple">
+          eventeye.co
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

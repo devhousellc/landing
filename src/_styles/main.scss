@@ -1,2 +1,7 @@
-@import "./variables";
+@import './variables';
 @import './bootstrap';
+@import 'node_modules/mdi/scss/materialdesignicons';
+
+@import './common';
+@import './top-menu';
+@import './page';

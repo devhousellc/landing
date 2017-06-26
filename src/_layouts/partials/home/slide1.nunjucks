@@ -1,0 +1,18 @@
+<div class="container-wrap slide1">
+  <div class="container">
+    <div class="content">
+      <h1>
+        <span class="media-h">We are team of passionate </span>
+        open-minded specialists
+      </h1>
+      <p class="margin-top-25 gridsss-1">
+        We help you transform your idea to a production-ready
+        solution.
+      </p>
+
+      <button class="btn btn-gradient-green margin-top-50">
+        Hire us
+      </button>
+    </div>
+  </div>
+</div>

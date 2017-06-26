@@ -1,0 +1,66 @@
+@font-face {
+  font-family: 'pt_sansregular';
+  src: url('../fonts/ps-sans/ps-sans.eot');
+  src: url('../fonts/ps-sans/ps-sans.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/ps-sans/ps-sans.woff') format('woff'),
+  url('../fonts/ps-sans/ps-sans.ttf') format('truetype'),
+  url('../fonts/ps-sans/ps-sans.svg#pt_sansregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'gilroyextrabold';
+  src: url('../fonts/gilroy/gilroy.eot');
+  src: url('../fonts/gilroy/gilroy.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/gilroy/gilroy.woff2') format('woff2'),
+  url('../fonts/gilroy/gilroy.woff') format('woff'),
+  url('../fonts/gilroy/gilroy.ttf') format('truetype'),
+  url('../fonts/gilroy/gilroy.svg#gilroyextrabold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  color: #fff;
+  font-size: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'gilroyextrabold', sans-serif;
+}
+
+h1 {
+  font-size: 45px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 35px;
+}
+
+h4 {
+  font-size: 30px;
+}
+
+h5 {
+  font-size: 25px;
+}
+
+h6 {
+  font-size: 20px;
+}
+
+//helpers
+@for $i from 1 to 18 {
+  .margin-top-#{$i*5} {
+    margin-top: $i*5px !important;
+  }
+}
