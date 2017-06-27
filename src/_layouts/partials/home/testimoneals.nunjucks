@@ -1,0 +1,86 @@
+{% extends '_layouts/partials/home/slide-wrap.nunjucks' %}
+
+{% set slideId = "testemonials" %}
+
+{% block slideContent %}
+  <div id="testimonials-carousel" class="carousel slide" data-ride="carousel" data-interval="6000000">
+
+    <div class="carousel-inner" role="listbox">
+
+      <div class="item clearfix active">
+        <div class="item-inner clearfix">
+          <div class="carousel-img">
+            <img src="{{ baseUrl }}images/clients/fredrik-hoel.jpg" alt="">
+          </div>
+          <div class="carousel-info client-name-bock">
+            <div class="carousel-quotes visible-xs visible-sm"></div>
+            <h4 class="">Fredrik Hoel</h4>
+            <div class="info-gray-small">
+              Founder & CEO, EventEye
+            </div>
+          </div>
+
+          <div class="clearfix visible-sm visible-xs"></div>
+
+          <div class="carousel-info client-says">
+            <div class="clearfix margin-top-30">
+              <div class="carousel-quotes margin-top-5 hidden-xs hidden-sm"></div>
+              <div class="carousel-text">
+                We have been working with DevHouse for several years and they have consistently worked very diligently
+                to meet our development and operational needs. They are very competent in the technologies they work
+                with and it is a pleasure to give my best recommendations to their work.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="item clearfix">
+        <div class="item-inner clearfix">
+          <div class="carousel-img">
+            <img src="{{ baseUrl }}images/clients/marius-sevaldsen.jpg" alt="">
+          </div>
+          <div class="carousel-info client-name-bock">
+            <div class="carousel-quotes visible-xs visible-sm"></div>
+            <h4 class="">Marius Sevaldsen</h4>
+            <div class="info-gray-small">
+              Founder & CEO, Cake it easy
+            </div>
+          </div>
+
+          <div class="clearfix visible-sm visible-xs"></div>
+
+          <div class="carousel-info client-says">
+            <div class="clearfix margin-top-30">
+              <div class="carousel-quotes margin-top-5 hidden-xs hidden-sm"></div>
+              <div class="carousel-text">
+                I have been working with DevHouse for 3 years now and they are the best developers I have worked with.
+                They are creative, skilled at what they do and puts honor into their work. A good developer builds
+                what the client tells him to build. A great developer suggests how to do it in a better way.
+                DevHouse falls in the last category. And as a bonus - Igor and the guys is a pleasure to work with.
+                So to sum it up - stay away from these guys. They are ours
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <ol class="carousel-indicators">
+      <li data-target="#testimonials-carousel" data-slide-to="0" class="active"></li>
+      <li data-target="#testimonials-carousel" data-slide-to="1"></li>
+    </ol>
+
+    <a class="left carousel-control"
+       href="#testimonials-carousel"
+       role="button"
+       data-slide="prev">
+    </a>
+    <a class="right carousel-control"
+       href="#testimonials-carousel"
+       role="button"
+       data-slide="next">
+    </a>
+  </div>
+{% endblock %}

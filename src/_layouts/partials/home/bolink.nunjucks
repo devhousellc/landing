@@ -4,14 +4,14 @@
 
 {% block slideContent %}
   <div class="dash">
-    <div class="event-eye-logo-wrap">
+    <div class="logo-wrap">
       <img src="{{ baseUrl }}images/logo/logo-bolink.png" alt="event-eye">
     </div>
   </div>
-  <h1 class="margin-top-35">
+  <h3 class="margin-top-35">
     <span class="media-h">Why do you pay to a broker for something </span>
     you can easily do yourself?
-  </h1>
+  </h3>
   <div class="margin-top-35">
     <button class="btn btn-simple">
       bolink.no

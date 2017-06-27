@@ -14,10 +14,14 @@
     & > li {
       position: relative;
 
+      &.active > a {
+        color: #fff !important;
+      }
+
       & > a {
         text-transform: uppercase;
         font-family: 'gilroyextrabold';
-        font-size: 18px;
+        font-size: 0.9rem;
 
         &:hover,
         &:active,

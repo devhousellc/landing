@@ -11,8 +11,8 @@
         <a href="mailto:hello@devhouse.pro">hello@devhouse.pro</a>
       </div>
       <div class="footer-mdi">
-        <span class="mdi mdi-facebook-box"></span>
-        <span class="mdi mdi-github-box"></span>
+        <a href="#" class="mdi mdi-facebook-box"></a>
+        <a href="#" class="mdi mdi-github-box"></a>
       </div>
     </div>
   </div>
