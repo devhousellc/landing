@@ -3,16 +3,20 @@
 {% set slideId = "passionateSpecialists" %}
 
 {% block slideContent %}
-  <h1>
-    <span class="media-h">We are team of passionate </span>
-    open-minded specialists
-  </h1>
-  <p class="margin-top-25">
-    We help you transform your idea to a production-ready
-    solution.
-  </p>
+  <div class="content-animation">
+    <h1>
+      <span class="media-h">We are team of passionate </span>
+      open-minded specialists
+    </h1>
+    <p class="margin-top-25">
+      We help you transform your idea to a production-ready
+      solution.
+    </p>
+  </div>
 
-  <button class="btn btn-gradient-green margin-top-50">
-    Hire us
-  </button>
+  <div class="button-animation">
+    <button class="btn btn-gradient-green margin-top-50">
+      Hire us
+    </button>
+  </div>
 {% endblock %}

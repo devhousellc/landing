@@ -11,6 +11,12 @@
     flex-direction: column;
     justify-content: center;
   }
+
+  &.too-big-for-mobile {
+    &, & .container {
+      height: auto;
+    }
+  }
 }
 
 .btn {
@@ -106,7 +112,7 @@ ul.list {
   color: #7f827b;
 }
 
-.logo-wrap{
+.logo-wrap {
   img {
     @media (max-width: 340px) {
       width: 100%;
@@ -182,5 +188,17 @@ ul.list {
       }
     }
   }
+}
 
+.content-animation,
+.button-animation {
+  position: relative;
+  opacity: 0;
+  left: -80px;
+  transition: all 1s ease 0s;
+}
+
+.start-animation {
+  left: 0;
+  opacity: 1;
 }

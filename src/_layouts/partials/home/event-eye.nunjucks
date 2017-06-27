@@ -14,8 +14,8 @@
     Your participants will love it
   </h3>
   <div class="margin-top-35">
-    <button class="btn btn-simple">
+    <a class="btn btn-simple">
       eventeye.co
-    </button>
+    </a>
   </div>
 {% endblock %}

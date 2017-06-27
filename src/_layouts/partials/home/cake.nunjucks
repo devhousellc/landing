@@ -13,8 +13,8 @@
     from Norway
   </h3>
   <div class="margin-top-35">
-    <button class="btn btn-simple">
+    <a class="btn btn-simple">
       cakeiteasy.no
-    </button>
+    </a>
   </div>
 {% endblock %}

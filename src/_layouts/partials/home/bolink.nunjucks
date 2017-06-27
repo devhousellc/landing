@@ -13,8 +13,8 @@
     you can easily do yourself?
   </h3>
   <div class="margin-top-35">
-    <button class="btn btn-simple">
+    <a class="btn btn-simple">
       bolink.no
-    </button>
+    </a>
   </div>
 {% endblock %}

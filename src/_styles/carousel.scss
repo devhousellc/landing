@@ -1,5 +1,11 @@
-
 .carousel {
+  .carousel-inner{
+    @media (max-width: $screen-xs-max) {
+      width: calc(100% - 50px);
+      margin: 0 auto;
+    }
+  }
+
   .carousel-img,
   .carousel-info {
     float: left;
@@ -140,14 +146,24 @@
 
       @media (max-width: $screen-xs-max) {
         width: 40px;
-        height: 30px;
-        bottom: -50px;
-        top: auto;
+        height: 100px;
+        bottom: auto;
+        top: 0;
       }
     }
 
     &.left {
       transform: rotate(180deg);
+
+      @media (max-width: $screen-xs-max) {
+        left: -6px;
+      }
+    }
+
+    &.right {
+      @media (max-width: $screen-xs-max) {
+        right: -6px;
+      }
     }
   }
 }
