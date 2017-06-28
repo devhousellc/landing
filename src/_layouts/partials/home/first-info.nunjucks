@@ -13,4 +13,6 @@
     <button class="btn btn-gradient-green margin-top-50"
             data-localize="common.hireUs"></button>
   </div>
+
+  <a href="#modernTechnologies" class="arrow-down"></a>
 {% endblock %}

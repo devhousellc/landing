@@ -14,13 +14,17 @@ function slider() {
   });
 
   function init() {
+    var scrollTop = $(document).scrollTop();
+
     var current = $.map(slidePlacements, function (slide) {
       var slideOffset = $(slide).offset().top - displayOffset;
 
-      if(slideOffset < $(document).scrollTop()) {
+      if(slideOffset < scrollTop) {
         return slide;
       }
     });
+
+    menu.setBackground(scrollTop);
 
     current = current[current.length - 1];
 

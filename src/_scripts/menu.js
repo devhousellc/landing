@@ -3,13 +3,12 @@ require('bootstrap-sass');
 
 function activate() {
 
-  $('.navbar-nav a').on('click', function (e) {
+  $('.navbar-nav a, .arrow-down').on('click', function (e) {
     e.preventDefault();
+    expandToggle();
 
     var href = $(this).attr("href");
     var offsetTop = href === "#" ? 0 : $(href).offset().top;
-
-    expandToggle();
 
     $('html, body').stop().animate({
       scrollTop: offsetTop
@@ -26,8 +25,24 @@ function setActiveItem(href) {
   }
 }
 
-function expandToggle() {
-  $('.navbar-toggle').click();
+function setBackground(scrollTop) {
+  var bg = $('.navbar-bg');
+
+  if (!!scrollTop) {
+    bg.addClass('show');
+  } else {
+    bg.removeClass('show');
+  }
 }
 
-module.exports = {activate: activate, setActiveItem: setActiveItem};
+function expandToggle() {
+  if ($('.navbar-collapse.collapse').hasClass('in')) {
+    $('.navbar-toggle').click();
+  }
+}
+
+module.exports = {
+  activate: activate,
+  setActiveItem: setActiveItem,
+  setBackground: setBackground
+};
