@@ -1,0 +1,36 @@
+{
+  "common": {
+    "hireUs": "Hire us"
+  },
+  "menu": {
+    "aboutUs": "About us",
+    "projects": "Projects",
+    "testimonials": "Testimonials",
+    "contacts": "Contacts"
+  },
+  "firstInfo": {
+    "title": "<span class=\"media-h\">We are team of passionate </span> open-minded specialists",
+    "info": "We help you transform your idea to a production-ready solution."
+  },
+  "aboutUs": {
+    "title": "<span class=\"media-h\">We like to go with modern</span> <span class=\"media-h\">technologies, we know</span> how and when use them",
+    "stack": "Stack",
+    "webDevelopment": "Web-development",
+    "mobileAppDevelopment": "Mobile app development",
+    "workflow": "Workflow",
+    "workflowPoints": "<li>Formulation idea and project aim</li><li>Analyzing and reseaching</li><li>Design project solution</li><li>Developing and testing</li><li>Release it!</li><li>Support and new feature requests development</li>"
+  },
+  "eventEye": {
+    "title": "<span class=\"media-h\">Easy-to-use event apps for your</span> <span class=\"media-h\">conferences, meetings or other events.</span> Your participants will love it"
+  },
+  "cake": {
+    "title": "<span class=\"media-h\">Tailored cakes from local bakeries</span> from Norway"
+  },
+  "bolink": {
+    "title": "<span class=\"media-h\">Why do you pay to a broker for something </span> you can easily do yourself?"
+  },
+  "testimonials": {
+    "fredrikSays": "We have been working with DevHouse for several years and they have consistently worked very diligently to meet our development and operational needs. They are very competent in the technologies they work with and it is a pleasure to give my best recommendations to their work.",
+    "mariusSays": "I have been working with DevHouse for 3 years now and they are the best developers I have worked with. They are creative, skilled at what they do and puts honor into their work. A good developer builds what the client tells him to build. A great developer suggests how to do it in a better way. DevHouse falls in the last category. And as a bonus - Igor and the guys is a pleasure to work with. So to sum it up - stay away from these guys. They are ours"
+  }
+}

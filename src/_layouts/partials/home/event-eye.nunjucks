@@ -8,10 +8,8 @@
       <img src="{{ baseUrl }}images/logo/logo-eventeye.png" alt="event-eye">
     </div>
   </div>
-  <h3 class="margin-top-35">
-    <span class="media-h">Easy-to-use event apps for your</span>
-    <span class="media-h">conferences, meetings or other events.</span>
-    Your participants will love it
+  <h3 class="margin-top-35"
+      data-localize="eventEye.title">
   </h3>
   <div class="margin-top-35">
     <a class="btn btn-simple">

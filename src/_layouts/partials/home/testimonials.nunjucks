@@ -27,11 +27,8 @@
           <div class="carousel-info client-says">
             <div class="clearfix margin-top-30">
               <div class="carousel-quotes margin-top-5 hidden-xs hidden-sm"></div>
-              <div class="carousel-text">
-                We have been working with DevHouse for several years and they have consistently worked very diligently
-                to meet our development and operational needs. They are very competent in the technologies they work
-                with and it is a pleasure to give my best recommendations to their work.
-              </div>
+              <div class="carousel-text"
+                   data-localize="testimonials.fredrikSays"></div>
             </div>
           </div>
         </div>
@@ -55,13 +52,8 @@
           <div class="carousel-info client-says">
             <div class="clearfix margin-top-30">
               <div class="carousel-quotes margin-top-5 hidden-xs hidden-sm"></div>
-              <div class="carousel-text">
-                I have been working with DevHouse for 3 years now and they are the best developers I have worked with.
-                They are creative, skilled at what they do and puts honor into their work. A good developer builds
-                what the client tells him to build. A great developer suggests how to do it in a better way.
-                DevHouse falls in the last category. And as a bonus - Igor and the guys is a pleasure to work with.
-                So to sum it up - stay away from these guys. They are ours
-              </div>
+              <div class="carousel-text"
+                   data-localize="testimonials.mariusSays"></div>
             </div>
           </div>
         </div>

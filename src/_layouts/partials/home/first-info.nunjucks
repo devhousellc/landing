@@ -4,19 +4,13 @@
 
 {% block slideContent %}
   <div class="content-animation">
-    <h1>
-      <span class="media-h">We are team of passionate </span>
-      open-minded specialists
-    </h1>
-    <p class="margin-top-25">
-      We help you transform your idea to a production-ready
-      solution.
-    </p>
+    <h1 data-localize="firstInfo.title"></h1>
+    <p class="margin-top-25"
+       data-localize="firstInfo.info"></p>
   </div>
 
   <div class="button-animation">
-    <button class="btn btn-gradient-green margin-top-50">
-      Hire us
-    </button>
+    <button class="btn btn-gradient-green margin-top-50"
+            data-localize="common.hireUs"></button>
   </div>
 {% endblock %}

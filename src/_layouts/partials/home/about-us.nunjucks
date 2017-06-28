@@ -8,17 +8,15 @@
   <div class="technologies-icon-wrap">
     <img src="{{ baseUrl }}images/technologies-icon.png" alt="technologies">
   </div>
-  <h1>
-    <span class="media-h">We like to go with modern</span>
-    <span class="media-h">technologies, we know</span>
-    how and when use them
-  </h1>
+  <h1 data-localize="aboutUs.title"></h1>
 
   <div class="row">
     <div class="col-sm-6 col-md-4 margin-top-70">
-      <h3 class="dash">Stack</h3>
+      <h3 class="dash"
+          data-localize="aboutUs.stack"></h3>
 
-      <h6 class="margin-top-30">Web-development</h6>
+      <h6 class="margin-top-30"
+          ç></h6>
       <ul class="list margin-top-20">
         <li>NodeJS</li>
         <li>Python/Django</li>
@@ -26,25 +24,19 @@
         <li>Angular/React</li>
       </ul>
 
-      <h6 class="margin-top-30">Mobile app development</h6>
+      <h6 class="margin-top-30"
+          data-localize="aboutUs.mobileAppDevelopment"></h6>
       <ul class="list margin-top-20">
         <li>Ionic/React Native</li>
       </ul>
     </div>
 
     <div class="col-sm-6 col-md-5 col-lg-4 margin-top-70">
-      <h3 class="dash">
-        Workflow
-      </h3>
+      <h3 class="dash"
+          data-localize="aboutUs.workflow"></h3>
 
-      <ul class="list no-marker margin-top-30">
-        <li>Formulation idea and project aim</li>
-        <li>Analyzing and reseaching</li>
-        <li>Design project solution</li>
-        <li>Developing and testing</li>
-        <li>Release it!</li>
-        <li>Support and new feature requests development</li>
-      </ul>
+      <ul class="list no-marker margin-top-30"
+          data-localize="aboutUs.workflowPoints"></ul>
     </div>
   </div>
 {% endblock %}
