@@ -96,17 +96,21 @@
   .item-inner {
     width: 960px;
     margin: 0 auto;
+    min-height: 300px;
 
     @media (max-width: $screen-md-max) {
       width: 770px;
+      min-height: 300px;
     }
 
     @media (max-width: $screen-sm-max) {
       width: 510px;
+      min-height: 400px;
     }
 
     @media (max-width: $screen-xs-max) {
       width: 100%;
+      min-height: 502px;
     }
   }
 
@@ -139,6 +143,8 @@
       opacity: 0.8;
       transition: opacity 0.3s ease 0s;
       z-index: 100;
+      bottom: auto;
+      height: 300px;
 
       &:hover {
         opacity: 1;

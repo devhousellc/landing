@@ -21,7 +21,7 @@
 
   {% include '_layouts/partials/home/bolink.nunjucks' %}
 
-  {% include '_layouts/partials/home/testimoneals.nunjucks' %}
+  {% include '_layouts/partials/home/testimonials.nunjucks' %}
 
   {% include '_layouts/partials/home/contacts.nunjucks' %}
 

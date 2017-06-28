@@ -5,12 +5,31 @@
   background: url('../images/brand-green.png') no-repeat center center /cover;
 }
 
-.navbar-fixed-top {
-  top: 20px;
-}
-
 .navbar-default {
+  .navbar-header {
+    position: relative;
+    z-index: 200;
+  }
+
+  &.navbar.navbar-fixed-top {
+    top: 0;
+    margin: 0;
+    padding: 20px 0;
+    background: rgba(23, 24, 27, 0.6);
+
+    .navbar-collapse {
+      box-shadow: none;
+      border: none;
+    }
+
+    @media (max-width: $screen-xs-max) {
+      padding: 0;
+    }
+  }
+
   .navbar-nav {
+    margin: 0;
+
     & > li {
       position: relative;
 
@@ -56,6 +75,90 @@
         &:after {
           width: 100%;
         }
+      }
+
+      @media (max-width: $screen-xs-max) {
+        display: table;
+        margin: 10px auto;
+
+        & > a {
+          padding-top: 15px;
+          padding-bottom: 15px;
+        }
+
+        span {
+          bottom: 8px;
+
+          &, &:after {
+            transition: none;
+          }
+        }
+      }
+    }
+  }
+
+  .navbar-toggle {
+    border: none;
+    position: relative;
+
+    &:hover, &:focus {
+      background: transparent;
+    }
+
+    .icon-bar {
+      width: 28px;
+      height: 3px;
+      opacity: 1;
+      transition: opacity 0.3s ease 0s;
+
+      & + .icon-bar {
+        margin-top: 5px;
+      }
+    }
+
+    .close-icon-bar {
+      width: 24px;
+      height: 24px;
+      display: block;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      margin-top: -12px;
+      margin-left: -12px;
+      background: url('../images/close.png') no-repeat center center;
+      transition: all 0.5s ease 0s;
+      opacity: 0;
+      transform: rotate(-45deg);
+    }
+
+    &[aria-expanded="true"] {
+      .icon-bar {
+        opacity: 0;
+      }
+
+      .close-icon-bar {
+        opacity: 1;
+        transform: rotate(0deg);
+      }
+    }
+  }
+
+  @media (max-width: $screen-xs-max) {
+    .navbar-collapse {
+      background: #17181b;
+      position: fixed;
+      width: 100%;
+      top: -100%;
+      z-index: 10;
+      max-height: none;
+      height: 100%!important;
+      transition: top 0.5s ease 0s;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      &[aria-expanded="true"] {
+        top: 0;
       }
     }
   }

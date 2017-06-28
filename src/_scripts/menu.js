@@ -9,6 +9,8 @@ function activate() {
     var href = $(this).attr("href");
     var offsetTop = href === "#" ? 0 : $(href).offset().top;
 
+    expandToggle();
+
     $('html, body').stop().animate({
       scrollTop: offsetTop
     }, 300);
@@ -22,6 +24,10 @@ function setActiveItem(href) {
     $('.navbar-nav li').removeClass('active');
     item.parent().addClass('active');
   }
+}
+
+function expandToggle() {
+  $('.navbar-toggle').click();
 }
 
 module.exports = {activate: activate, setActiveItem: setActiveItem};
