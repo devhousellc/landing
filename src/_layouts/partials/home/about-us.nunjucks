@@ -2,7 +2,7 @@
 
 {% set slideId = "modernTechnologies" %}
 
-{% set additionalClassesForContainerWrap = "too-big-for-mobile" %}
+{% set additionalClassesForContainerWrap = "too-big-for-mobile about-us" %}
 
 {% block slideContent %}
   <div class="technologies-icon-wrap">
