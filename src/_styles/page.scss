@@ -13,8 +13,10 @@
   }
 
   &.too-big-for-mobile {
-    &, & .container {
-      height: auto;
+    @media (max-width: $screen-xs-max) {
+      &, & .container {
+        height: auto;
+      }
     }
   }
 }

@@ -5,7 +5,7 @@
 {% set additionalClassesForContainerWrap = "too-big-for-mobile testimonials" %}
 
 {% block slideContent %}
-  <div id="testimonials-carousel" class="carousel slide" data-ride="carousel" data-interval="6000000">
+  <div id="testimonials-carousel" class="carousel slide" data-ride="carousel" data-interval="500000">
 
     <div class="carousel-inner" role="listbox">
 
