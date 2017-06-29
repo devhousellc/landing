@@ -15,7 +15,7 @@
     <div class="collapse navbar-collapse" id="bs-navbar-collapse">
       <ul class="nav navbar-nav navbar-right">
         <li>
-          <a href="#modernTechnologies"
+          <a href="#aboutUs"
              data-localize="menu.aboutUs"></a>
           <span></span>
         </li>

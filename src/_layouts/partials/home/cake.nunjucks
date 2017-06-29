@@ -1,6 +1,7 @@
 {% extends '_layouts/partials/home/slide-wrap.nunjucks' %}
 
 {% set slideId = "cake" %}
+{% set activeMenuItem = "eventEye" %}
 
 {% block slideContent %}
   <div class="dash">

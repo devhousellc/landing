@@ -1,6 +1,7 @@
 {% extends '_layouts/partials/home/slide-wrap.nunjucks' %}
 
 {% set slideId = "testemonials" %}
+{% set activeMenuItem = "testemonials" %}
 
 {% block slideContent %}
   <div id="testimonials-carousel" class="carousel slide" data-ride="carousel" data-interval="5000">

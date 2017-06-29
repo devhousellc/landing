@@ -1,6 +1,7 @@
 {% extends '_layouts/partials/home/slide-wrap.nunjucks' %}
 
-{% set slideId = "modernTechnologies" %}
+{% set slideId = "aboutUs" %}
+{% set activeMenuItem = "aboutUs" %}
 
 {% block slideContent %}
   <div class="technologies-icon-wrap">
@@ -14,7 +15,7 @@
           data-localize="aboutUs.stack"></h3>
 
       <h6 class="margin-top-30"
-          ç></h6>
+          data-localize="aboutUs.stack"></h6>
       <ul class="list margin-top-20">
         <li>NodeJS</li>
         <li>Python/Django</li>

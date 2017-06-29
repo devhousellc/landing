@@ -1,6 +1,7 @@
 {% extends '_layouts/partials/home/slide-wrap.nunjucks' %}
 
 {% set additionalClassesForContainerWrap = "contacts" %}
+{% set activeMenuItem = "contacts" %}
 
 {% set slideId = "contacts" %}
 

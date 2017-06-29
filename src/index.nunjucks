@@ -3,7 +3,7 @@
 {% block content %}
   <div class="image-backstretch">
     <div data-slide-link="passionateSpecialists" class="image-slide programmer-dark"></div>
-    <div data-slide-link="modernTechnologies" class="image-slide programmer-light"></div>
+    <div data-slide-link="aboutUs" class="image-slide programmer-light"></div>
     <div data-slide-link="eventEye" class="image-slide event-eye"></div>
     <div data-slide-link="cake" class="image-slide cake"></div>
     <div data-slide-link="bolink" class="image-slide bolink"></div>

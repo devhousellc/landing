@@ -22,6 +22,8 @@ function setActiveItem(href) {
   if (!!item && !!item.length) {
     $('.navbar-nav li').removeClass('active');
     item.parent().addClass('active');
+  } else {
+    $('.navbar-nav li').removeClass('active');
   }
 }
 

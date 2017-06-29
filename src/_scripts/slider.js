@@ -31,7 +31,7 @@ function slider() {
     if (current && current.id) {
       slides.removeClass('active');
       $('[data-slide-link="' + current.id + '"]').addClass('active');
-      menu.setActiveItem(current.id);
+      menu.setActiveItem($(current).attr('active-menu-item'));
     }
   }
 }
