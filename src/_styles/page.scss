@@ -2,34 +2,37 @@
   position: relative;
   z-index: 1;
 
-  &, & .container {
-    height: 100%;
-  }
-
-  .container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-
-  &.too-big-for-mobile {
-    @media (max-width: $screen-xs-max) {
-      &, & .container {
-        height: auto;
-      }
+  @media(min-width: $screen-sm-min) {
+    &, & .container {
+      height: 100%;
     }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  }
+
+  @media (max-width: $screen-xs-max) {
+    padding-bottom: 60px;
+    padding-top: 60px;
   }
 }
 
 .arrow-down {
-  position: absolute;
-  bottom: 20px;
-  left: 50%;
-  margin-left: -40px;
   display: block;
   width: 80px;
   height: 40px;
+  margin: 80px auto 0;
   background: url('../images/arrow-down.png') no-repeat center center;
+
+  @media (min-width: $screen-sm-min) {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    margin: 0 0 0 -40px;
+  }
 }
 
 .btn {
@@ -57,7 +60,7 @@
     text-transform: uppercase;
 
     &:hover {
-      box-shadow: #cffe77 0px 0px 20px;
+      box-shadow: #cffe77 0 0 20px;
     }
 
     @media (max-width: $screen-xs-max) {
@@ -144,23 +147,13 @@ ul.list {
   }
 }
 
-.testimonials {
-  @media (max-width: $screen-xs-max) {
-    padding-top: 60px;
-  }
-}
-
-.about-us {
-  @media (max-width: $screen-xs-max) {
-    padding-top: 60px;
+.contacts{
+  &.container-wrap {
+    padding-bottom: 15px;
   }
 }
 
 .footer {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 100%;
   color: #7b7c7d;
   padding-top: 20px;
   padding-bottom: 65px;
@@ -219,7 +212,15 @@ ul.list {
     }
   }
 
+  @media(min-width: $screen-sm-min) {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
+
   @media (max-width: $screen-xs-max) {
+    margin-top: 60px;
     padding-bottom: 15px;
   }
 }

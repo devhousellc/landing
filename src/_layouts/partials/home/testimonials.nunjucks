@@ -2,8 +2,6 @@
 
 {% set slideId = "testemonials" %}
 
-{% set additionalClassesForContainerWrap = "too-big-for-mobile testimonials" %}
-
 {% block slideContent %}
   <div id="testimonials-carousel" class="carousel slide" data-ride="carousel" data-interval="5000">
 

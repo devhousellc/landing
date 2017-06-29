@@ -5,8 +5,6 @@
       {% block slideContent %}{% endblock %}
 
     </div>
-
-    {% block footer %}{% endblock %}
-
   </div>
+  {% block footer %}{% endblock %}
 </div>
