@@ -27,13 +27,13 @@ function setActiveItem(href) {
   }
 }
 
-function setBackground(scrollTop) {
-  var bg = $('.navbar-bg');
+function scrollJob(scrollTop) {
+  var scrollItems = $('[data-scroll-item]');
 
   if (!!scrollTop) {
-    bg.addClass('show');
+    scrollItems.addClass('not-on-top');
   } else {
-    bg.removeClass('show');
+    scrollItems.removeClass('not-on-top');
   }
 }
 
@@ -46,5 +46,5 @@ function expandToggle() {
 module.exports = {
   activate: activate,
   setActiveItem: setActiveItem,
-  setBackground: setBackground
+  scrollJob: scrollJob
 };

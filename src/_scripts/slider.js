@@ -24,7 +24,7 @@ function slider() {
       }
     });
 
-    menu.setBackground(scrollTop);
+    menu.scrollJob(scrollTop);
 
     current = current[current.length - 1];
 

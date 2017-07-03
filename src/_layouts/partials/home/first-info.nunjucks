@@ -14,5 +14,5 @@
             data-localize="common.hireUs"></button>
   </div>
 
-  <a href="#aboutUs" class="arrow-down"></a>
+  <a href="#aboutUs" class="arrow-down arrow-animation" data-scroll-item></a>
 {% endblock %}

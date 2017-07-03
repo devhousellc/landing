@@ -1,5 +1,5 @@
 <nav class="navbar navbar-default navbar-fixed-top">
-  <div class="navbar-bg"></div>
+  <div class="navbar-bg" data-scroll-item></div>
   <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
