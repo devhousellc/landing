@@ -7,6 +7,19 @@ var nunjucks = require('gulp-nunjucks-html');
 var yaml = require('js-yaml');
 var gulpif = require('gulp-if');
 
+var translateLib = require('./translate.lib');
+
+function setUpNunjucks(args) {
+  return function (env) {
+    env.addFilter('translate', function (str) {
+      var translations = translateLib.getTranslate(args.lang);
+      return translateLib.translateFilter(translations, str);
+    });
+
+    return env;
+  }
+}
+
 module.exports = function(gulp, plugins, args, config, taskTarget, browserSync) {
   var dirs = config.directories;
   var dest = path.join(taskTarget);
@@ -63,6 +76,7 @@ module.exports = function(gulp, plugins, args, config, taskTarget, browserSync) 
       }
     }))
     .pipe(nunjucks({
+      setUp: setUpNunjucks(args),
       searchPaths: [path.join(dirs.source)],
       ext: '.html'
     })

@@ -32,5 +32,8 @@
   "testimonials": {
     "fredrikSays": "We have been working with DevHouse for several years and they have consistently worked very diligently to meet our development and operational needs. They are very competent in the technologies they work with and it is a pleasure to give my best recommendations to their work.",
     "mariusSays": "I have been working with DevHouse for 3 years now and they are the best developers I have worked with. They are creative, skilled at what they do and puts honor into their work. A good developer builds what the client tells him to build. A great developer suggests how to do it in a better way. DevHouse falls in the last category. And as a bonus - Igor and the guys is a pleasure to work with. So to sum it up - stay away from these guys. They are ours"
+  },
+  "contacts": {
+    "title": "<span class=\"media-h\">Ready to create</span> a new successful project?"
   }
 }

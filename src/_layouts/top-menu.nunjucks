@@ -15,23 +15,19 @@
     <div class="collapse navbar-collapse" id="bs-navbar-collapse">
       <ul class="nav navbar-nav navbar-right">
         <li>
-          <a href="#aboutUs"
-             data-localize="menu.aboutUs"></a>
+          <a href="#aboutUs">{{ 'menu.aboutUs'|translate }}</a>
           <span></span>
         </li>
         <li>
-          <a href="#eventEye"
-             data-localize="menu.projects"></a>
+          <a href="#eventEye">{{ 'menu.projects'|translate }}</a>
           <span></span>
         </li>
         <li>
-          <a href="#testemonials"
-             data-localize="menu.testimonials"></a>
+          <a href="#testemonials">{{ 'menu.testimonials'|translate }}</a>
           <span></span>
         </li>
         <li>
-          <a href="#contacts"
-             data-localize="menu.contacts"></a>
+          <a href="#contacts">{{ 'menu.contacts'|translate }}</a>
           <span></span>
         </li>
       </ul>

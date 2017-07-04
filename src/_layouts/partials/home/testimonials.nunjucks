@@ -26,8 +26,7 @@
           <div class="carousel-info client-says">
             <div class="clearfix margin-top-30">
               <div class="carousel-quotes margin-top-5 hidden-xs hidden-sm"></div>
-              <div class="carousel-text"
-                   data-localize="testimonials.fredrikSays"></div>
+              <div class="carousel-text">{{ 'testimonials.fredrikSays'|translate }}</div>
             </div>
           </div>
         </div>
@@ -51,8 +50,7 @@
           <div class="carousel-info client-says">
             <div class="clearfix margin-top-30">
               <div class="carousel-quotes margin-top-5 hidden-xs hidden-sm"></div>
-              <div class="carousel-text"
-                   data-localize="testimonials.mariusSays"></div>
+              <div class="carousel-text">{{ 'testimonials.mariusSays'|translate }}</div>
             </div>
           </div>
         </div>

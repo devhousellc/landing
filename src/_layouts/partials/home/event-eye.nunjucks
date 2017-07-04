@@ -9,9 +9,7 @@
       <img src="{{ baseUrl }}images/logo/logo-eventeye.png" alt="event-eye">
     </div>
   </div>
-  <h3 class="margin-top-35"
-      data-localize="eventEye.title">
-  </h3>
+  <h3 class="margin-top-35">{{ 'eventEye.title'|translate }}</h3>
   <div class="margin-top-35">
     <a class="btn btn-simple">
       eventeye.co

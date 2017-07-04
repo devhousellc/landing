@@ -4,7 +4,6 @@
   "dependencies": {
     "bootstrap-sass": "^3.3.7",
     "jquery": "~3.1.1",
-    "jquery-localize": "^0.1.0",
     "mdi": "^1.9.33",
     "normalize.css": "~5.0.0"
   },
