@@ -4,32 +4,25 @@ var _ = require('lodash');
 function getTranslate(lang) {
   lang = lang || 'en';
 
-  var path = './src/lang/' + lang + '.json';
+  var path = '../src/lang/' + lang + '.json';
 
-  if (fs.existsSync(path)) {
-    var info = fs.readFileSync(path);
-    try {
-      var json = JSON.parse(info);
-      return json;
-    }
-    catch (e) {
-      console.log(e);
-      return {};
-    }
-  } else {
-    console.log("Can not find file: " + path);
+  try {
+    return require(path);
+  }
+  catch (e) {
+    console.error(e);
     return {};
   }
 }
 
 function translateFilter(translations, key) {
-  var keyAr = key.split('.');
+  var result = _.get(translations, key, '');
 
-  _.forEach(keyAr, function (val) {
-    translations = translations[val] || '';
-  });
+  if (!result) {
+    console.error('Translation key wasn\'t found: ' + key);
+  }
 
-  return translations || key;
+  return result || key;
 }
 
 module.exports = {
