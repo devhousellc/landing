@@ -4,14 +4,16 @@
 
 {% block slideContent %}
   <div class="content-animation">
-    <h1 data-localize="firstInfo.title"></h1>
-    <p class="margin-top-25"
-       data-localize="firstInfo.info"></p>
+    <h1>{{ 'firstInfo.title'|translate }}</h1>
+    <p class="margin-top-25">
+      {{ 'firstInfo.info'|translate }}
+    </p>
   </div>
 
   <div class="button-animation">
-    <button class="btn btn-gradient-green margin-top-50"
-            data-localize="common.hireUs"></button>
+    <button class="btn btn-gradient-green margin-top-50">
+      {{ 'common.hireUs'|translate }}
+    </button>
   </div>
 
   <a href="#aboutUs" class="arrow-down arrow-animation" data-scroll-item></a>

@@ -33,7 +33,7 @@ var browserSync = browserSyncLib.create();
 // This will grab all js in the `gulp` directory
 // in order to load all gulp tasks
 glob.sync('./gulp/**/*.js').filter(function(file) {
-  return (/\.(js)$/i).test(file);
+  return (/\.js$/i).test(file) && !(/\.lib\.js$/i).test(file);
 }).map(function(file) {
   require(file)(gulp, plugins, args, config, taskTarget, browserSync);
 });

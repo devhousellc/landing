@@ -10,12 +10,11 @@
     <img src="{{ baseUrl }}images/pencil-icon.png" alt="create project">
   </div>
   <h1>
-    <span class="media-h">Ready to create</span>
-    a new successful project?
+    {{ 'contacts.title'|translate }}
   </h1>
 
   <button class="btn btn-gradient-green margin-top-50">
-    Hire us
+    {{ 'common.hireUs'|translate }}
   </button>
 {% endblock %}
 
