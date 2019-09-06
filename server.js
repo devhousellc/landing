@@ -6,4 +6,5 @@ app.get('/', (req, res) => {
   res.send('I\'m alive');
 });
 
-app.listen(80, () => console.log('Lending page is listening on 80!'));
+const port = process.env.PORT || 3000;
+app.listen(port, () => console.log(`Lending page is listening on ${port}!`));
