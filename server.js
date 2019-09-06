@@ -2,6 +2,7 @@ const express = require('express');
 const app = express();
 
 app.use(express.static('dist'));
+app.disable('x-powered-by');
 app.get('/', (req, res) => {
   res.send('I\'m alive');
 });
