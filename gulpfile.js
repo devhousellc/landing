@@ -40,7 +40,7 @@ glob.sync('./gulp/**/*.js').filter(function(file) {
 
 // Default task
 gulp.task('default', ['clean'], function() {
-  gulp.start('build');
+  return gulp.start('build');
 });
 
 // Build production-ready code

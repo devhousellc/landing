@@ -75,6 +75,7 @@ module.exports = function(gulp, plugins, args, config, taskTarget, browserSync) 
         bundler.on('update', rebundle); // on any dep update, runs the bundler
         bundler.on('log', plugins.util.log); // output build logs to terminal
       }
+
       return rebundle();
     });
   };
