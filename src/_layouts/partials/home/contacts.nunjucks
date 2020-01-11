@@ -13,9 +13,9 @@
     {{ 'contacts.title'|translate }}
   </h1>
 
-  <button class="btn btn-gradient-green margin-top-50">
+  <a href="mailto:hello@devhouse.pro" class="btn btn-gradient-green margin-top-50">
     {{ 'common.hireUs'|translate }}
-  </button>
+  </a>
 {% endblock %}
 
 {% block footer %}

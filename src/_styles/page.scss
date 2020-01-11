@@ -95,6 +95,7 @@
     min-width: 220px;
     transition: box-shadow 0.3s ease 0s;
     text-transform: uppercase;
+    line-height: 50px;;
 
     &:hover {
       box-shadow: #cffe77 0 0 20px;
@@ -102,6 +103,7 @@
 
     @media (max-width: $screen-xs-max) {
       height: 40px;
+      line-height: 28px;
       min-width: 150px;
     }
   }
