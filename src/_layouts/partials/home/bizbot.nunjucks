@@ -22,7 +22,7 @@
     <div class="row">
       <div class="col-sm-6">
         <h5>Services</h5>
-        <ul class=list">
+        <ul class="list">
           <li>Full life-cycle development and QA</li>
           <li>Stripe integration</li>
           <li>Document signing/template generator</li>
@@ -32,7 +32,7 @@
       </div>
       <div class="col-sm-6">
         <h5>Tech stack</h5>
-        <ul class=list">
+        <ul class="list">
           <li>React</li>
           <li>Node.js, Python</li>
           <li>Postgres, Redis, FireBase</li>

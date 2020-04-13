@@ -24,14 +24,14 @@
       <div class="row">
         <div class="col-sm-6">
           <h5>Services</h5>
-          <ul class=list">
+          <ul class="list">
             <li>Full life-cycle development and QA</li>
             <li>Dynamic content management</li>
           </ul>
         </div>
         <div class="col-sm-6">
           <h5>Tech stack</h5>
-          <ul class=list">
+          <ul class="list">
             <li>JavaScript, HTML5</li>
             <li>Mars CMS</li>
           </ul>

@@ -21,7 +21,7 @@
       <div class="row">
         <div class="col-sm-6">
           <h5>Services</h5>
-          <ul class=list">
+          <ul class="list">
             <li>Full life-cycle development and QA</li>
             <li>Simple to install web-shop development</li>
             <li>Multilangual support</li>
@@ -32,7 +32,7 @@
         </div>
         <div class="col-sm-6">
           <h5>Tech stack</h5>
-          <ul class=list">
+          <ul class="list">
             <li>Python, Node.js</li>
             <li>Postgres, Redis, Celery</li>
             <li>Angular, Flutter</li>
