@@ -1,48 +1,47 @@
+
 {% extends '_layouts/partials/home/slide-wrap.nunjucks' %}
 
-{% set slideId = "eventEye" %}
+{% set slideId = "capaconf" %}
 {% set activeMenuItem = "projects" %}
 {% set additionalClassesForContainerWrap = "project-slide" %}
 
 {% block slideContent %}
   <div class="dash">
     <div class="logo-wrap">
-      <img src="{{ baseUrl }}images/logo/logo-eventeye.png" alt="event-eye">
+      <img src="{{ baseUrl }}images/logo/logo-capa.svg" alt="event-eye">
     </div>
   </div>
-  <h3 class="margin-top-35">Event Eye</h3>
+  <h3 class="margin-top-35">Capa Conferences</h3>
   <div class="row">
-    <div class="col-md-6">
-      <p>{{ 'eventEye.title'|translate }} </p>
+    <div class="col-md-8">
+      <p>Meeting, conference or event?<br>We have great conference facilities throughout Norway!</p>
+      <small>Developed in partnership with <a rel="noopener noreferrer nofollow" target="_blank" 
+        href="https://www.filmgrail.com/">Filmgrail</small>
     </div>
   </div> 
   <div class="row margin-top-15">
-    <div class="col-md-10">
+    <div class="col-md-6">
       <div class="row">
         <div class="col-sm-6">
           <h5>Services</h5>
           <ul class=list">
             <li>Full life-cycle development and QA</li>
-            <li>Push notifications</li>
-            <li>Offline-data support for apps</li>
-            <li>Content manamgent dashboard</li>
-            <li>Cross-system data synchronization</li>
+            <li>Dynamic content management</li>
           </ul>
         </div>
         <div class="col-sm-6">
           <h5>Tech stack</h5>
           <ul class=list">
-            <li>ASP.NET Web API 2</li>
-            <li>MS SQL, Azure Storage, Blobs</li>
-            <li>MS Azure</li>
+            <li>JavaScript, HTML5</li>
+            <li>Mars CMS</li>
           </ul>
         </div>
       </div>
     </div>
   </div>
   <div class="margin-top-35">
-    <a class="btn btn-simple" href="https://eventeye.no" rel="noopener noreferrer nofollow">
-      eventeye.no
+    <a class="btn btn-simple" href="https://konferanse.capa.no" rel="noopener noreferrer nofollow">
+      konferanse.capa.no
     </a>
   </div>
 {% endblock %}

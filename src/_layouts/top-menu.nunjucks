@@ -19,7 +19,7 @@
           <span></span>
         </li>
         <li>
-          <a href="#eventEye">{{ 'menu.projects'|translate }}</a>
+          <a href="#projects">{{ 'menu.projects'|translate }}</a>
           <span></span>
         </li>
         <li>

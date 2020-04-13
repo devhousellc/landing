@@ -6,20 +6,23 @@
     <div data-slide-link="aboutUs" class="image-slide programmer-light"></div>
     <div data-slide-link="eventEye" class="image-slide event-eye"></div>
     <div data-slide-link="cake" class="image-slide cake"></div>
+    <div data-slide-link="bizbot" class="image-slide bizbot"></div>
+    <div data-slide-link="capaconf" class="image-slide capa"></div>
+    <div data-slide-link="filmgrail" class="image-slide fg"></div>
     <div data-slide-link="bolink" class="image-slide bolink"></div>
     <div data-slide-link="testemonials" class="image-slide programmer-light"></div>
     <div data-slide-link="contacts" class="image-slide programmer-dark"></div>
   </div>
 
   {% include '_layouts/partials/home/first-info.nunjucks' %}
-
   {% include '_layouts/partials/home/about-us.nunjucks' %}
-
-  {% include '_layouts/partials/home/event-eye.nunjucks' %}
-
-  {% include '_layouts/partials/home/cake.nunjucks' %}
-
+  <div id="projects"></div>
   {% include '_layouts/partials/home/bolink.nunjucks' %}
+  {% include '_layouts/partials/home/cake.nunjucks' %}
+  {% include '_layouts/partials/home/bizbot.nunjucks' %}
+  {% include '_layouts/partials/home/event-eye.nunjucks' %}
+  {% include '_layouts/partials/home/filmgrail.nunjucks' %}
+  {% include '_layouts/partials/home/capaconf.nunjucks' %}
 
   {% include '_layouts/partials/home/testimonials.nunjucks' %}
 

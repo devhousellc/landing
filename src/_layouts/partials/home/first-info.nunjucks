@@ -13,7 +13,7 @@
   <div class="button-animation">
     <a href="mailto:hello@devhouse.pro" class="btn btn-gradient-green margin-top-50">
       {{ 'common.hireUs'|translate }}
-    </button>
+    </a>
   </div>
 
   <a href="#aboutUs" class="arrow-down arrow-animation" data-scroll-item></a>

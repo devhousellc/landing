@@ -1,7 +1,8 @@
 {% extends '_layouts/partials/home/slide-wrap.nunjucks' %}
 
 {% set slideId = "cake" %}
-{% set activeMenuItem = "eventEye" %}
+{% set activeMenuItem = "projects" %}
+{% set additionalClassesForContainerWrap = "project-slide" %}
 
 {% block slideContent %}
   <div class="dash">
@@ -9,9 +10,40 @@
       <img src="{{ baseUrl }}images/logo/logo-cake.png" alt="event-eye">
     </div>
   </div>
-  <h3 class="margin-top-35">{{ 'cake.title'|translate }}</h3>
+  <h3 class="margin-top-35">Cake it easy</h3>
+  <div class="row">
+    <div class="col-md-8">
+      <p>{{ 'cake.title'|translate }}</p>
+    </div>
+  </div>
+  <div class="row margin-top-15">
+    <div class="col-md-12">
+      <div class="row">
+        <div class="col-sm-6">
+          <h5>Services</h5>
+          <ul class=list">
+            <li>Full life-cycle development and QA</li>
+            <li>Simple to install web-shop development</li>
+            <li>Multilangual support</li>
+            <li>Marketplace development (complex product structure, awesome building flow)</li>
+            <li>Payment systems integrations (Bambora, Klarna, Payex)</li>
+            <li>Orders management (VAT, orders editing, payments management, commission and payouts)</li>
+          </ul>
+        </div>
+        <div class="col-sm-6">
+          <h5>Tech stack</h5>
+          <ul class=list">
+            <li>Python, Node.js</li>
+            <li>Postgres, Redis, Celery</li>
+            <li>Angular, Flutter</li>
+            <li>Microsoft Azure, AWS</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
   <div class="margin-top-35">
-    <a class="btn btn-simple">
+    <a class="btn btn-simple" href="https://www.cakeiteasy.no" rel="noopener noreferrer nofollow">
       cakeiteasy.no
     </a>
   </div>

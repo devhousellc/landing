@@ -11,8 +11,9 @@
   </div>
   <h1>
     {{ 'contacts.title'|translate }}
+    <br>
+    <small class="text-white">We are ready to help!</span>
   </h1>
-
   <a href="mailto:hello@devhouse.pro" class="btn btn-gradient-green margin-top-50">
     {{ 'common.hireUs'|translate }}
   </a>

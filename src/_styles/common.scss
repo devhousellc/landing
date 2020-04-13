@@ -108,4 +108,18 @@ a {
   .margin-top-#{$i*5} {
     margin-top: $i*5px !important;
   }
+  
+  .margin-bottom-#{$i*5} {
+    margin-bottom: $i*5px !important;
+  }
+}
+
+small{
+  color: inherit !important;
+  font-family: pt_sansregular;
+  font-weight: normal!important;
+}
+
+a:hover {
+  color: inherit;
 }

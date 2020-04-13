@@ -15,15 +15,24 @@
 
       <h6 class="margin-top-30">{{ 'aboutUs.stack'|translate }}</h6>
       <ul class="list margin-top-20">
-        <li>NodeJS</li>
+        <li>Node.js (Nest.js)</li>
         <li>Python/Django</li>
-        <li>.NET MVC</li>
-        <li>Angular/React</li>
+        <li>.NET CORE</li>
+        <li>Angular / React / Vue</li>
       </ul>
 
-      <h6 class="margin-top-30">{{ 'aboutUs.mobileAppDevelopment'|translate }}</h6>
+      <h6 class="margin-top-50">{{ 'aboutUs.mobileAppDevelopment'|translate }}</h6>
       <ul class="list margin-top-20">
-        <li>Ionic/React Native</li>
+        <li>React Native</li>
+        <li>Flutter</li>
+      </ul>
+      
+      <h6 class="margin-top-50">Cloud Platforms</h6>
+      <ul class="list margin-top-20">
+        <li>AWS</li>
+        <li>Azure</li>
+        <li>Digital Ocean</li>
+        <li>Google Cloud Platform</li>
       </ul>
     </div>
 

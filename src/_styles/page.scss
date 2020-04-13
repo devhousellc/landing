@@ -7,6 +7,10 @@
       height: 100%;
     }
 
+    &.project-slide, &.project-slide .container.slide {
+      height: 65%;
+    }
+
     .container {
       display: flex;
       flex-direction: column;

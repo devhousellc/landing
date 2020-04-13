@@ -1,0 +1,51 @@
+{% extends '_layouts/partials/home/slide-wrap.nunjucks' %}
+
+{% set slideId = "bizbot" %}
+{% set activeMenuItem = "projects" %}
+{% set additionalClassesForContainerWrap = "project-slide" %}
+
+{% block slideContent %}
+<div class="dash">
+  <div class="logo-wrap">
+    <img style="min-height: 45px" src="{{ baseUrl }}images/logo/logo-bizbot.svg" alt="bizbot">
+  </div>
+</div>
+<h3 class="margin-top-35">BizBot</h3>
+<div class="row">
+  <div class="col-md-6">
+    <p>Developing a platform to simplify business administration, our vision becomes to operating system for all
+      companies in the world. </p>
+  </div>
+</div>
+<div class="row margin-top-15">
+  <div class="col-md-10">
+    <div class="row">
+      <div class="col-sm-6">
+        <h5>Services</h5>
+        <ul class=list">
+          <li>Full life-cycle development and QA</li>
+          <li>Stripe integration</li>
+          <li>Document signing/template generator</li>
+          <li>BankID login/Signicat integrations</li>
+          <li>2FA integration</li>
+        </ul>
+      </div>
+      <div class="col-sm-6">
+        <h5>Tech stack</h5>
+        <ul class=list">
+          <li>React</li>
+          <li>Node.js, Python</li>
+          <li>Postgres, Redis, FireBase</li>
+          <li>CircleCI, Docker</li>
+          <li>Microsoft Azure</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="margin-top-35">
+  <a class="btn btn-simple" href="https://www.bizbot.com" rel="noopener noreferrer nofollow">
+    bizbot.com
+  </a>
+</div>
+{% endblock %}

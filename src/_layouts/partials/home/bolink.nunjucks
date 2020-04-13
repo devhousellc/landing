@@ -1,7 +1,8 @@
 {% extends '_layouts/partials/home/slide-wrap.nunjucks' %}
 
 {% set slideId = "bolink" %}
-{% set activeMenuItem = "eventEye" %}
+{% set activeMenuItem = "projects" %}
+{% set additionalClassesForContainerWrap = "project-slide" %}
 
 {% block slideContent %}
   <div class="dash">
@@ -9,10 +10,39 @@
       <img src="{{ baseUrl }}images/logo/logo-bolink.png" alt="event-eye">
     </div>
   </div>
-  <h3 class="margin-top-35">{{ 'bolink.title'|translate }}</h3>
+  <h3 class="margin-top-35">Bolink</h3>
+  <div class="row">
+    <div class="col-md-8">
+      <p>{{ 'bolink.title'|translate }}</p>
+    </div>
+  </div>
+  <div class="row margin-top-15">
+    <div class="col-md-10">
+      <div class="row">
+        <div class="col-sm-6">
+          <h5>Services</h5>
+          <ul class=list">
+            <li>Full life-cycle development</li>
+            <li>Dashboard portal</li>
+            <li>Document generations, Signicat integration</li>
+            <li>Continues integration/Delivery</li>
+          </ul>
+        </div>
+        <div class="col-sm-6">
+          <h5>Tech stack</h5>
+          <ul class=list">
+            <li>Node.js</li>
+            <li>MongoDB</li>
+            <li>Angular</li>
+            <li>Microsoft Azure</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
   <div class="margin-top-35">
-    <a class="btn btn-simple">
-      bolink.no
+    <a class="btn btn-simple" href="https://medium.com/@some_40851/bolink-later-gjensidige-bolighandel-our-first-exit-a69594d5d294" rel="noopener noreferrer nofollow">
+      Read about project exit!
     </a>
   </div>
 {% endblock %}

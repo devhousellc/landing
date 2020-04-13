@@ -21,19 +21,20 @@
     "workflowPoints": "<li>Formulation idea and project aim</li><li>Analyzing and reseaching</li><li>Design project solution</li><li>Developing and testing</li><li>Release it!</li><li>Support and new feature requests development</li>"
   },
   "eventEye": {
-    "title": "<span class=\"media-h\">Easy-to-use event apps for your</span> <span class=\"media-h\">conferences, meetings or other events.</span> Your participants will love it"
+    "title": "Easy-to-use event apps for your conferences, meetings or other events. Your participants will love it"
   },
   "cake": {
-    "title": "<span class=\"media-h\">Tailored cakes from local bakeries</span> from Norway"
+    "title": "Tailored cakes from local bakeries from Norway"
   },
   "bolink": {
-    "title": "<span class=\"media-h\">Why do you pay to a broker for something </span> you can easily do yourself?"
+    "title": "Why do you pay to a broker for something  you can easily do yourself?"
   },
   "testimonials": {
-    "fredrikSays": "We have been working with DevHouse for several years and they have consistently worked very diligently to meet our development and operational needs. They are very competent in the technologies they work with and it is a pleasure to give my best recommendations to their work.",
-    "mariusSays": "I have been working with DevHouse for 3 years now and they are the best developers I have worked with. They are creative, skilled at what they do and puts honor into their work. A good developer builds what the client tells him to build. A great developer suggests how to do it in a better way. DevHouse falls in the last category. And as a bonus - Igor and the guys is a pleasure to work with. So to sum it up - stay away from these guys. They are ours"
+    "fredrikSays": "We have been working with Devhouse for several years and they have consistently worked very diligently to meet our development and operational needs. They are very competent in the technologies they work with and it is a pleasure to give my best recommendations to their work.",
+    "mariusSays": "I have been working with Devhouse for 5 years now and they are the best developers I have worked with. They are creative, skilled at what they do and puts honor into their work. A good developer builds what the client tells him to build. A great developer suggests how to do it in a better way. Devhouse falls in the last category. And as a bonus - Igor and the guys is a pleasure to work with. So to sum it up - stay away from these guys. They are ours",
+    "didrikSays": "We have been working with Devhouse since 2017 and they have been very committed to build our platform and worked hard to understand how we should build the architecture. They are also quick to respond and easy to communicate with. Now we have onboarded a big partner and we look forward to see the results of what we have done with thousands of customers and even more users in the time to come."
   },
   "contacts": {
-    "title": "<span class=\"media-h\">Ready to create</span> a new successful project?"
+    "title": "Ready to start?"
   }
 }

@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "scripts": {
     "postinstall": "gulp build --production",
+    "serve": "gulp serve",
     "start": "node server.js",
     "clean-deps": "rimraf node_modules"
   },

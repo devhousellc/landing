@@ -1,0 +1,26 @@
+{% extends '_layouts/partials/home/slide-wrap.nunjucks' %}
+
+{% set slideId = "filmgrail" %}
+{% set activeMenuItem = "projects" %}
+{% set additionalClassesForContainerWrap = "project-slide" %}
+
+{% block slideContent %}
+  <div class="dash">
+    <div class="logo-wrap">
+      <img src="{{ baseUrl }}images/logo/logo-filmgrail.svg" alt="filmgrail">
+    </div>
+  </div>
+  <h3 class="margin-top-35">Filmgrail</h3>
+  <div class="row">
+    <div class="col-md-8">
+      <p>
+        Digital Commerce & Marketing for Cinema</p>
+      <small>Services: cinema portals development and QA</small>
+    </div>
+  </div> 
+  <div class="margin-top-35">
+    <a class="btn btn-simple" href="https://www.filmgrail.com" rel="noopener noreferrer nofollow">
+      www.filmgrail.com
+    </a>
+  </div>
+{% endblock %}

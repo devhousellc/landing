@@ -2,7 +2,7 @@ window.$ = window.jQuery = require('jquery');
 var menu = require('./menu');
 
 function slider() {
-  var displayOffset = 300;
+  var displayOffset = 500;
 
   var slides = $('.image-backstretch .image-slide');
   var slidePlacements = $('.slide-placement');
