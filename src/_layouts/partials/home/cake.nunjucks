@@ -1,4 +1,4 @@
-{% extends '_layouts/partials/home/slide-wrap.nunjucks' %}
+{% extends '_layouts/partials/slide-wrap.nunjucks' %}
 
 {% set slideId = "cake" %}
 {% set activeMenuItem = "projects" %}
@@ -7,7 +7,7 @@
 {% block slideContent %}
   <div class="dash">
     <div class="logo-wrap">
-      <img src="{{ baseUrl }}images/logo/logo-cake.png" alt="event-eye">
+      <img src="{{ baseUrl }}images/logo/logo-cake.png" alt="cake it easy">
     </div>
   </div>
   <h3 class="margin-top-35">Cake it easy</h3>

@@ -1,0 +1,61 @@
+{% extends '_layouts/partials/slide-wrap.nunjucks' %}
+
+{% set slideId = "aboutUs" %}
+{% set activeMenuItem = "aboutUs" %}
+
+{% block slideContent %}
+<div class="technologies-icon-wrap">
+  <img src="{{ baseUrl }}images/technologies-icon.png" alt="technologies">
+</div>
+<h1>We are team of experts in web and mobile development, we know technologies we know how to cook them together</h1>
+
+<div class="row">
+  <div class="col-sm-8 col-md-6 col-lg-5 margin-top-70">
+    <h3 class="dash">Popular Cases</h3>
+
+    <ul class="list margin-top-30">
+      <li>Payment systems: Stripe, Klarna, Bambora and more</li>
+      <li>Bank ID integration (powered by Signicat)</li>
+      <li>Quick demo/prototype <br><small>live deswign or prototype on CMS</small></li>
+      <li>Project tech analysis</li>
+      <li>Complex third party integration</li>
+      <li>Custom solution for your project <br>
+        <small>E-commerce, geocoding, any kind of bookings etc 🙂</small>
+      </li>
+    </ul>
+  </div>
+</div>
+<div class="row">
+  <div class="col-sm-6 col-md-8 margin-top-70">
+    <h3 class="dash">Our Main Stack</h3>
+    <div class="row margin-top-30">
+      <div class="col-md-4">
+        <h6>Web and API</h6>
+        <ul class="list margin-top-20">
+          <li>Node.js (Nest.js)</li>
+          <li>Python/Django</li>
+          <li>.NET CORE</li>
+          <li>Angular / React / Vue</li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <h6>{{ 'aboutUs.mobileAppDevelopment'|translate }}</h6>
+        <ul class="list margin-top-20">
+          <li>React Native</li>
+          <li>Flutter</li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <h6>Cloud Platforms</h6>
+        <ul class="list margin-top-20">
+          <li>AWS</li>
+          <li>Azure</li>
+          <li>Digital Ocean</li>
+          <li>Google Cloud Platform</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+</div>
+{% endblock %}

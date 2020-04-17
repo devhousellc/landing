@@ -3,9 +3,7 @@
      id="{{ slideId }}">
   <div class="container">
     <div class="content">
-
       {% block slideContent %}{% endblock %}
-
     </div>
   </div>
   {% block footer %}{% endblock %}

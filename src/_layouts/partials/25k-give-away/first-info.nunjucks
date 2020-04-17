@@ -1,0 +1,27 @@
+{% extends '_layouts/partials/slide-wrap.nunjucks' %}
+
+{% set slideId = "passionateSpecialists" %}
+{% set additionalClassesForContainerWrap = "first-slide" %}
+
+{% block slideContent %}
+<div class="content-animation">
+  <h1>We are giving away 25.000 NOK to 10 startups</h1>
+  <p class="margin-top-25">
+    <ul class="list">
+      <li>build your startup's landing page on cms</li>
+      <li>develop demo or mvp of your product</li>
+      <li>make another iteration on your existing solution</li>
+      <li>fix bugs in your existing solution</li>
+      <li>help you out with tech questions you've got</li>
+    </ul>
+  </p>
+</div>
+
+<div class="button-animation">
+  <a href="mailto:hello@devhouse.pro" class="btn btn-gradient-green margin-top-50">
+    Get Started
+  </a>
+</div>
+
+<a href="#aboutUs" class="arrow-down arrow-animation" data-scroll-item></a>
+{% endblock %}

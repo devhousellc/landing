@@ -1,6 +1,7 @@
-{% extends '_layouts/partials/home/slide-wrap.nunjucks' %}
+{% extends '_layouts/partials/slide-wrap.nunjucks' %}
 
 {% set slideId = "passionateSpecialists" %}
+{% set additionalClassesForContainerWrap = "first-slide" %}
 
 {% block slideContent %}
   <div class="content-animation">

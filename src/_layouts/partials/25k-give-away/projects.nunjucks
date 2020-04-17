@@ -1,0 +1,73 @@
+{% extends '_layouts/partials/slide-wrap.nunjucks' %}
+
+{% set slideId = "projects" %}
+{% set activeMenuItem = "projects" %}
+{% set additionalClassesForContainerWrap = "project-slide" %}
+
+{% block slideContent %}
+<h3 class="margin-bottom-75">Projects we helped a lot</h3>
+
+<div class="row">
+  <div class="col-md-4">
+    <div class="dash">
+      <div class="logo-wrap">
+        <img src="{{ baseUrl }}images/logo/logo-capa.svg" alt="event-eye">
+      </div>
+    </div>
+    <h4 class="margin-top-35">Capa Conferences</h3>
+      <div class="row">
+        <div class="col-md-10">
+          <p>Great conference facilities throughout Norway!</p>
+        </div>
+      </div>
+      <div class="margin-top-35">
+        <a class="btn btn-simple" href="https://konferanse.capa.no" rel="noopener noreferrer nofollow">
+          konferanse.capa.no
+        </a>
+      </div>
+  </div>
+  <div class="col-md-4">
+    <div class="dash">
+      <div class="logo-wrap">
+        <img src="{{ baseUrl }}images/logo/logo-cake.png" alt="cake it easy">
+      </div>
+    </div>
+    <h4 class="margin-top-35">Cake it easy</h3>
+      <div class="row">
+        <div class="col-md-10">
+          <p>{{ 'cake.title'|translate }}</p>
+        </div>
+      </div>
+
+      <div class="margin-top-35">
+        <a class="btn btn-simple" href="https://www.cakeiteasy.no" rel="noopener noreferrer nofollow">
+          cakeiteasy.no
+        </a>
+      </div>
+  </div>
+  <div class="col-md-4">
+    <div class="dash">
+      <div class="logo-wrap">
+        <img src="{{ baseUrl }}images/logo/logo-bolink.png" alt="event-eye">
+      </div>
+    </div>
+    <h4 class="margin-top-35">Bolink</h3>
+      <div class="row">
+        <div class="col-md-11">
+          <p>Don't pay for broker, sell/buy yourself</p>
+        </div>
+      </div>
+      <div class="margin-top-35">
+        <a class="btn btn-simple"
+          href="https://medium.com/@some_40851/bolink-later-gjensidige-bolighandel-our-first-exit-a69594d5d294"
+          rel="noopener noreferrer nofollow">
+          Read about project exit!
+        </a>
+      </div>
+  </div>
+</div>
+<div class="margin-top-75 text-center">
+  <a class="text-muted" href="/#projects">Read about projects in greater details</a>
+</div>
+
+{% endblock %}

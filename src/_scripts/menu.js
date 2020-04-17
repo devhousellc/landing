@@ -10,9 +10,13 @@ function activate() {
     var href = $(this).attr("href");
     var offsetTop = href === "#" ? 0 : $(href).offset().top;
 
+    if ($(e.target).hasClass('arrow-down')) {
+      offsetTop -= 150;
+    }
+
     $('html, body').stop().animate({
       scrollTop: offsetTop
-    }, 300);
+    }, 400);
   });
 }
 

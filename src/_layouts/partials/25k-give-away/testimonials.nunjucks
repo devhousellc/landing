@@ -2,6 +2,7 @@
 
 {% set slideId = "testemonials" %}
 {% set activeMenuItem = "testemonials" %}
+{% set additionalClassesForContainerWrap = "narrow-slide" %}
 
 {% block slideContent %}
 <h2 class="margin-bottom-85">Happy Customers</h2>

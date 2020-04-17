@@ -1,0 +1,26 @@
+{% extends '_layouts/partials/slide-wrap.nunjucks' %}
+
+{% set slideId = "passionateSpecialists" %}
+{% set additionalClassesForContainerWrap = "narrow-slide gray-bg " %}
+
+{% block slideContent %}
+<div class="content-animation">
+  <h1>To get onboarded on the program you need to</h1>
+  <p class="margin-top-25">
+    <ul class="list">
+      <li>Have a perspective idea you personally love and believe</li>
+      <li>Team which is confident in the aspects your project relates to</li>
+      <li>Be focused on growing, but not making something forever before sharing that
+        towards your customers</li>
+    </ul>
+  </p>
+</div>
+
+<div class="button-animation">
+  <a href="mailto:hello@devhouse.pro" class="btn btn-gradient-green margin-top-50">
+    Get Started
+  </a>
+</div>
+
+<a href="#aboutUs" class="arrow-down arrow-animation" data-scroll-item></a>
+{% endblock %}

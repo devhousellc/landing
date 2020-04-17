@@ -1,6 +1,6 @@
 {% extends '_layouts/partials/slide-wrap.nunjucks' %}
 
-{% set additionalClassesForContainerWrap = "contacts" %}
+{% set additionalClassesForContainerWrap = "contacts narrow-slide" %}
 {% set activeMenuItem = "contacts" %}
 
 {% set slideId = "contacts" %}
@@ -15,10 +15,6 @@
     <small class="text-white">We are ready to help!</span>
   </h1>
   <a href="mailto:hello@devhouse.pro" class="btn btn-gradient-green margin-top-50">
-    {{ 'common.hireUs'|translate }}
+    Get Started
   </a>
-{% endblock %}
-
-{% block footer %}
-  {% include '_layouts/footer.nunjucks' %}
 {% endblock %}

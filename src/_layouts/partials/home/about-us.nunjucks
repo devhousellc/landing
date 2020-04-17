@@ -1,4 +1,4 @@
-{% extends '_layouts/partials/home/slide-wrap.nunjucks' %}
+{% extends '_layouts/partials/slide-wrap.nunjucks' %}
 
 {% set slideId = "aboutUs" %}
 {% set activeMenuItem = "aboutUs" %}
