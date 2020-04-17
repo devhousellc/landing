@@ -1,6 +1,6 @@
 {% extends '_layouts/partials/slide-wrap.nunjucks' %}
 
-{% set slideId = "passionateSpecialists" %}
+{% set slideId = "rules" %}
 {% set additionalClassesForContainerWrap = "narrow-slide gray-bg " %}
 
 {% block slideContent %}

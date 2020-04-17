@@ -10,6 +10,10 @@
         <span></span>
       </li>
       <li>
+        <a href="#rules">Rules</a>
+        <span></span>
+      </li>
+      <li>
         <a href="#testemonials">{{ 'menu.testimonials'|translate }}</a>
         <span></span>
       </li>
@@ -24,7 +28,7 @@
     <div data-slide-link="passionateSpecialists" class="image-slide programmer-dark"></div>
     <div data-slide-link="aboutUs" class="image-slide programmer-light"></div>
     <div data-slide-link="projects" class="image-slide programmer-dark"></div>
-    <div data-slide-link="to" class="image-slide programmer-light"></div>
+    <div data-slide-link="rules" class="image-slide programmer-light"></div>
     <div data-slide-link="testemonials" class="image-slide programmer-light"></div>
     <div data-slide-link="contacts" class="image-slide programmer-dark"></div>
   </div>
