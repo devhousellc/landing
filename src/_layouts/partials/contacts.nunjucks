@@ -15,6 +15,6 @@
     <small class="text-white">We are ready to help!</span>
   </h1>
   <a href="mailto:hello@devhouse.pro" class="btn btn-gradient-green margin-top-50">
-    Get StartedWe are giving away
+    Get Started
   </a>
 {% endblock %}
