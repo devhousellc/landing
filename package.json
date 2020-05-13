@@ -38,7 +38,7 @@
     "imagemin-pngquant": "~5.0.0",
     "imagemin-svgo": "~5.2.0",
     "jasmine-core": "2.5.2",
-    "jquery": "~3.1.1",
+    "jquery": "~3.5.0",
     "js-yaml": "~3.8.1",
     "karma": "~1.5.0",
     "karma-browserify": "~5.1.1",
